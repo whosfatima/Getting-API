@@ -8,13 +8,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: sans-serif;
 }
 .userContainer{
     width: 400px;
     /* height: 100vh; */
     /* border: 1px solid #000; */
+    display: flex;
+    flex-flow: row wrap;
 }
 .user{
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
